@@ -22,7 +22,7 @@ syn match nextflowBlock "\v(input|output|script|shell|exec):"
 
 syn keyword nextflowKeyword from into
 
-syn keyword nextflowType file val process Channel
+syn keyword nextflowType file val process Channel each tuple stdin env path
 
 syn keyword nextflowSpecial    workflow params launchDir
 
