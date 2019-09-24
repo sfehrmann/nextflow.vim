@@ -20,7 +20,7 @@ syn keyword nextflowDirective afterScript beforeScript cache container cpus clus
 
 syn match nextflowBlock "\v(input|output|script|shell|exec):"
 
-syn keyword nextflowKeyword from into
+syn keyword nextflowKeyword from into optional
 
 syn keyword nextflowType file val process Channel each tuple stdin env path
 
