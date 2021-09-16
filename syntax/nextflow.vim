@@ -17,7 +17,7 @@ syn match nextflowELExpr "\!{.\{-}}" contained
 
 " Nextflow specifics 
 
-syn region nextflowProcessBlock start="{" end="}" contained contains=myName
+syn region nextflowProcessBlock start="{" end="}" contained contains=nextflowProcess
 syn keyword nextflowProcess process skipwhite skipnl skipempty nextgroup=nextflowProcessBlock
 syn keyword nextflowProcess workflow skipwhite skipnl skipempty nextgroup=nextflowProcessBlock
 
