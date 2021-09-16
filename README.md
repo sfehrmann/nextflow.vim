@@ -10,19 +10,22 @@ Extends (presumed-available) groovy syntax highlighting.
 
 ### vim-plug
 
-    Plug 'raivivek/nextflow-vim'
+    Plug 'sfehrmann/nextflow-vim'
 
 ### Vundle
 
-    Plugin 'raivivek/nextflow-vim'
+    Plugin 'sfehrmann/nextflow-vim'
 
 ### NeoBundle
 
-    NeoBundle 'raivivek/nextflow-vim'
+    NeoBundle 'sfehrmann/nextflow-vim'
 
 ### Manual
 
-    git clone https://github.com/raivivek/nextflow-vim ~/nextflow-vim;
-    mkdir ~/.vim/ftdetect; mkdir ~/.vim/ftplugin;
-    cp ~/nextflow-vim/ftdetect/nextflow.vim ~/.vim/ftdetect;
-    cp ~/nextflow-vim/syntax/nextflow.vim ~/.vim/ftplugin;
+```bash
+git clone https://github.com/sfehrmann/nextflow-vim ~/nextflow-vim;
+mkdir ~/.vim/ftdetect; 
+mkdir ~/.vim/ftplugin;
+ln -s ~/nextflow-vim/ftdetect/nextflow.vim ~/.vim/ftdetect;
+ln -s ~/nextflow-vim/syntax/nextflow.vim ~/.vim/ftplugin;
+```
